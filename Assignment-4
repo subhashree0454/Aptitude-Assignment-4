@@ -1,0 +1,146 @@
+Here are the solutions to your questions:
+
+### 1. Capacity of the Tank
+
+**Given:**
+- Leak can empty the tank in 6 hours, so the leak rate is \( \frac{1}{6} \) tank per hour.
+- Inlet pipe fills at 4 liters per minute, which is \( 4 \times 60 = 240 \) liters per hour.
+- When both the leak and the inlet are open, the tank empties in 8 hours.
+
+**Let \( C \) be the capacity of the tank in liters.**
+
+**Total outflow when both are working:**
+- In 8 hours, the tank empties: \( \frac{C}{8} \).
+- Net outflow rate: 
+\[
+\frac{C}{8} = \text{Leak rate} - \text{Inlet rate} = \frac{C}{6} - 240.
+\]
+
+Setting up the equation:
+\[
+\frac{C}{8} + 240 = \frac{C}{6}.
+\]
+
+Multiplying through by 24 to eliminate fractions:
+\[
+3C + 5760 = 4C \implies C = 5760.
+\]
+
+**Answer**: **The capacity of the tank is 5760 liters.**
+
+---
+
+### 2. Percentage of Literate Females
+
+**Given:**
+- Total inhabitants = 1000.
+- Males = 60% of 1000 = 600.
+- Total literate = 20% of 1000 = 200.
+- Literate males = 25% of males = 25% of 600 = 150.
+
+**Literate females:**
+- Total literate = 200, and literate males = 150.
+- Therefore, literate females = \( 200 - 150 = 50 \).
+
+**Total females:**
+- Total females = \( 1000 - 600 = 400 \).
+
+**Percentage of literate females:**
+\[
+\text{Percentage} = \left(\frac{50}{400}\right) \times 100 = 12.5\%.
+\]
+
+**Answer**: **12.5% of females are literate.**
+
+---
+
+### 3. Percentage of Candidates Failed in Both Subjects
+
+**Given:**
+- Passed in English = 80%.
+- Passed in Mathematics = 85%.
+- Passed in both = 73%.
+
+Using the inclusion-exclusion principle:
+\[
+\text{Passed in either subject} = \text{Passed in English} + \text{Passed in Mathematics} - \text{Passed in both} = 80 + 85 - 73 = 92\%.
+\]
+
+**Therefore, failed in both subjects:**
+\[
+100\% - 92\% = 8\%.
+\]
+
+**Answer**: **8% of candidates failed in both subjects.**
+
+---
+
+### 4. Percent Increase in Savings
+
+**Given:**
+- Monthly income = 13,500.
+- Monthly expenditure = 9,000.
+- Income increase = 14%.
+- Expenditure increase = 7%.
+
+**New Income:**
+\[
+\text{New Income} = 13500 \times (1 + 0.14) = 13500 \times 1.14 = 15390.
+\]
+
+**New Expenditure:**
+\[
+\text{New Expenditure} = 9000 \times (1 + 0.07) = 9000 \times 1.07 = 9630.
+\]
+
+**New Savings:**
+\[
+\text{New Savings} = 15390 - 9630 = 5760.
+\]
+
+**Old Savings:**
+\[
+\text{Old Savings} = 13500 - 9000 = 4500.
+\]
+
+**Increase in Savings:**
+\[
+\text{Increase} = 5760 - 4500 = 1260.
+\]
+
+**Percentage increase:**
+\[
+\text{Percentage Increase} = \left(\frac{1260}{4500}\right) \times 100 \approx 28\%.
+\]
+
+**Answer**: **The percent increase in savings is approximately 28%.**
+
+---
+
+### 5. Days to Empty the Tank with 70 Pumps
+
+**Given:**
+- 49 pumps can empty the tank in 10 days, working 10 hours a day.
+- Total hours needed by 49 pumps = \( 49 \times 10 \times 10 = 4900 \) pump-hours to empty the tank.
+
+**Rate of one pump:**
+\[
+\text{One pump's rate} = \frac{1}{4900} \text{ tanks per hour}.
+\]
+
+**Total pump-hours for 70 pumps working 7 hours a day:**
+\[
+\text{Rate for 70 pumps} = 70 \text{ pumps} \times \text{rate} = 70 \times \frac{1}{4900} = \frac{70}{4900} = \frac{1}{70} \text{ tanks per hour}.
+\]
+
+**Days required:**
+\[
+\text{Time to empty the tank} = 70 \text{ hours (1 tank)}.
+\]
+
+With 70 pumps working 7 hours a day:
+\[
+\text{Days} = \frac{70}{7} = 10 \text{ days}.
+\]
+
+**Answer**: **The tank can be emptied in 10 days.**
